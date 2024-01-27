@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+body
+{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_640.png);
+
+}
+div.main
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 90px;
+    background-color: rgba(240, 248, 255, 0.699);
+    border: none;
+    border-radius: 20px;
+}
+p#download
+{
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+input
+{
+    position: relative;
+    text-align: center;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+input:focus
+{
+    outline: 2px solid #0077ff;
+}
+p#check
+{
+    position: absolute;
+    color: #aa0000;
+    margin-top: 220px;
+    margin-left: 210px;
+}
+p#status
+{
+    position: relative;
+    padding-top: 20px;
+    font-size: 18px;
+
+    visibility: hidden;
+}
+button#start
+{
+    position: relative;
+    width: 190px;
+    margin-left: 210px;
+    font-size: 16px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 20px;
+    margin: 30px 215px;
+    padding: 15px 0px 20px 0px;
+    transition: 0.2s;
+}
+button#start:hover
+{
+    cursor: pointer;
+    color: #fff;
+    background-color: #000000;
+    transition: 0.2s;
+    scale: 1.05;
+}
+button#start:focus
+{
+    outline: none;
+}
+#start ion-icon
+{
+    font-size: 25px;
+    transform: translateY(4px);
+    padding-right: 5px;
+}
+.bar
+{
+    position: relative;
+    border: 5px solid #004094;
+    border-radius: 20px;
+    padding: 5px;
+
+    visibility: hidden;
+}
+#mainBar
+{
+    display: block;
+    position: relative;
+    background-color: #e38400;
+    border: none;
+    height: 15px;
+    width: 0px;
+    border-radius: 20px;
+
+    visibility: hidden;
+}
+#creator
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
